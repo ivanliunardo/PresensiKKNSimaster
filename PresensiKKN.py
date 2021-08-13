@@ -6,7 +6,7 @@ import pywintypes
 from win10toast import ToastNotifier
 
 toast = ToastNotifier()
-toast.show_toast("Presensi KKN", "Sedang melakukan presensi KKN di Simaster", duration=30)
+toast.show_toast("Presensi KKN", "Sedang melakukan presensi KKN di Simaster", duration=3)
 
 os.chdir("C:\\Users\ivans\\Desktop\\PythonScripts")
 
